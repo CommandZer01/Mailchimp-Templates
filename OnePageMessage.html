@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>*|MC:SUBJECT|*</title>
+</head>
+
+<body bgcolor="#eee">
+<table width="800" border="0" align="center" bgcolor="#fff" style="border:1px solid #ccc; padding:50px;" >
+  <tbody>
+    <tr>
+		<td colspan="2" mc:edit="header" style="padding:20px;font-family:'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif'"><br /><center><h1>Drop Your Logo Here</h1></center></td>
+    </tr>
+    
+    <tr>
+      <td colspan="2" style="padding:20px;font-family:'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif'" mc:edit="body">
+		  <h2 style="color:#3461AE;">H2 Headline,</h2>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lobortis ipsum et ultricies tincidunt. Phasellus sit amet convallis felis. Nunc suscipit lacus eget pulvinar dictum. Nam id lorem aliquet, ornare arcu nec, efficitur erat. Fusce ut lorem at est porta ultrices. Duis at magna eu justo pretium pharetra at eu turpis. Curabitur ac commodo mi.
+<br /><br />
+ Nunc lobortis ipsum et ultricies tincidunt. Phasellus sit amet convallis felis. Nunc suscipit lacus eget pulvinar dictum. Nam id lorem aliquet, ornare arcu nec, efficitur erat. Fusce ut lorem at est porta ultrices. Duis at magna eu justo pretium pharetra at eu turpis. Curabitur ac commodo mi.
+
+		  <h3 style="color:#FE7A43;">Headline H3</h3>
+ Phasellus sit amet convallis felis. Nunc suscipit lacus eget pulvinar dictum. Nam id lorem aliquet, ornare arcu nec, efficitur erat. Fusce ut lorem at est porta ultrices. Duis at magna eu justo pretium pharetra at eu turpis. Curabitur ac commodo mi.
+		  <h3 style="color:#FE7A43;">Headline H3</h3>
+ Nunc lobortis ipsum et ultricies tincidunt. Phasellus sit amet convallis felis. Nunc suscipit lacus eget pulvinar dictum. Nam id lorem aliquet, ornare arcu nec, efficitur erat. Fusce ut lorem at est porta ultrices. Duis at magna eu justo pretium pharetra at eu turpis. Curabitur ac commodo mi.
+		  <h3 style="color:#FE7A43;">Headline H3 </h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lobortis ipsum et ultricies tincidunt. Phasellus sit amet convallis felis. Nunc suscipit lacus eget pulvinar dictum. Nam id lorem aliquet, ornare arcu nec, efficitur erat. Fusce ut lorem at est porta ultrices. Duis at magna eu justo pretium pharetra at eu turpis. Curabitur ac commodo mi.
+<br /><br />
+		  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lobortis ipsum et ultricies tincidunt. Phasellus sit amet convallis felis. Nunc suscipit lacus eget pulvinar dictum. <strong>Nam id lorem aliquet, ornare arcu nec, efficitur erat. Fusce ut lorem at est porta ultrices. Duis at magna eu justo pretium pharetra at eu turpis. Curabitur ac commodo mi.</strong>
+<br /><br />
+   
+   
+   <br /><br />
+   
+   
+   
+   
+   
+   </td>
+    </tr>
+    
+   
+
+  </tbody>
+</table>
+
+<table width="800" border="0" align="center" style="border:1px solid #ccc; padding:50px;">
+ <tr>
+      <td bgcolor="#eee" colspan="2" style="padding:20px;font-family:'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif'"><center>   *|IF:LIST|*
+                                                <em>Copyright &copy; *|CURRENT_YEAR|* *|LIST:COMPANY|*, All rights reserved.</em>
+                                                <br>
+                                                <!-- *|IFNOT:ARCHIVE_PAGE|* -->
+                                                *|LIST:DESCRIPTION|*
+                                                <br>
+                                                <strong>Our mailing address is:</strong>
+                                                <br> *|HTML:LIST_ADDRESS_HTML|*
+                                                <br>
+                                                <!-- *|END:IF|* -->
+                                                *|ELSE:|*
+                                                <!-- *|IFNOT:ARCHIVE_PAGE|* -->
+                                                <em>Copyright &copy; *|CURRENT_YEAR|* *|USER:COMPANY|*, All rights reserved.</em>
+                                                <br>
+                                                <strong>Our mailing address is:</strong>
+                                                <br> *|USER:ADDRESS_HTML|*
+                                                <!-- *|END:IF|* -->
+		  *|END:IF|*</center></td>
+		  
+    </tr>
+    <tr><td bgcolor="#eee" colspan="2" style="padding:20px;font-family:'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif'"><center>
+      <a href="*|UNSUB|*" class="utilityLink">unsubscribe from this list</a><span class="mobileHide"> | </span><a href="*|UPDATE_PROFILE|*" class="utilityLink">update subscription preferences</a>
+                                                <!-- *|IFNOT:ARCHIVE_PAGE|* --><span class="mobileHide"> | </span><a href="*|ARCHIVE|*" class="utilityLink">view email in browser</a>
+                                                <!-- *|END:IF|* -->
+		</center>
+		</td></tr>
+	</table>
+<br /><br />
+</body>
+</html>
