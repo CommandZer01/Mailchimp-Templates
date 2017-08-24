@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <style type="text/css">
+		#mainTable{
+			width:800px;
+		}
 		p{
 			margin:1em 0;
 			padding:0;
@@ -369,6 +372,11 @@
 		}
 
 }	@media only screen and (max-width: 480px){
+	
+	#mainTable{
+		width:480px;
+	}
+	
 		body{
 			width:100% !important;
 			min-width:100% !important;
@@ -512,12 +520,12 @@
 
 <body bgcolor="#eee">
 
-<table width="800" border="0" align="center" style="border:1px solid #ccc; padding:50px;">
+<table id="mainTable" width="800" border="0" align="center" style="border:1px solid #ccc; padding:50px;">
 <tr>
 <td align="center">
   <p><a href="*|ARCHIVE|*" target="_blank">View email in your browser</a></p>
 	</td></tr></table>
-<table width="800" border="0" align="center" bgcolor="#fff" style="border:1px solid #ccc; padding:50px;" >
+<table id="mainTable" border="0" align="center" bgcolor="#fff" style="border:1px solid #ccc; padding:50px;" >
   <tbody>
     <tr>
 		<td colspan="2" mc:edit="header" style="padding:20px;font-family:'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif'"><br /><center><h1>Drop Your Logo Here</h1></center></td>
@@ -555,7 +563,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lobortis ipsum et 
   </tbody>
 </table>
 
-<table width="800" border="0" align="center" style="border:1px solid #ccc; padding:50px;">
+<table id="mainTable" border="0" align="center" style="border:1px solid #ccc; padding:50px;">
  <tr>
       <td bgcolor="#eee" colspan="2" style="padding:20px;font-family:'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif'"><center>   *|IF:LIST|*
                                                 <em>Copyright &copy; *|CURRENT_YEAR|* *|LIST:COMPANY|*, All rights reserved.</em>
