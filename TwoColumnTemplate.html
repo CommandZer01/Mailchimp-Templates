@@ -14,6 +14,10 @@
 		#mainArea{
 			width:800px;
 		}
+		
+		#mainTable{
+				width:800px;
+			}
 		p{
 			margin:1em 0;
 			padding:0;
@@ -371,6 +375,28 @@
 			/*@editable*/font-weight:normal;
 			/*@editable*/text-decoration:underline;
 		}
+		
+		@media only screen and (max-width: 800px){
+		
+			
+			
+			#areaCells{
+			width:50%;
+			column-span: 0;
+		}
+		
+		#mainArea{
+			width:800px;
+		}
+			
+			#mainTable{
+				width:100%;
+			}
+			
+		}
+		
+		
+		
 	@media only screen and (max-width: 480px){
 		
 		
@@ -534,7 +560,7 @@
 <td align="center">
   <p><a href="*|ARCHIVE|*" target="_blank">View email in your browser</a></p>
 	</td></tr></table>
-<table width="800" border="0" align="center" bgcolor="#fff" style="border:1px solid #ccc; padding:50px;" >
+<table id="mainTable" border="0" align="center" bgcolor="#fff" style="border:1px solid #ccc; padding:50px;" >
   <tbody>
     <tr>
       <td colspan="3" style="padding:20px;font-family:'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif'" mc:edit="header"><h1>Drop Your Logo Here</h1>
@@ -587,7 +613,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lobortis ipsum et 
   </tbody>
 </table>
 
-<table width="800" border="0" align="center" style="border:1px solid #ccc; padding:50px;">
+<table id="mainTable" border="0" align="center" style="border:1px solid #ccc; padding:50px;">
  <tr>
       <td bgcolor="#eee" colspan="2" style="padding:20px;font-family:'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif'"><center>   *|IF:LIST|*
                                                 <em>Copyright &copy; *|CURRENT_YEAR|* *|LIST:COMPANY|*, All rights reserved.</em>
